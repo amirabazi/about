@@ -1,0 +1,90 @@
+.hometop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh; 
+    flex-wrap: wrap;   
+}
+
+.text__links{
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+.text_first{
+    margin:0;
+    color: #111827;
+    font-size: 24px;
+    font-style: italic;
+}
+
+.text_scnd{
+    margin:0;
+    font-size: 64px;
+    color: #111827;
+    font-weight: bold;
+}
+
+.hometop__wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    flex-wrap: wrap;  
+}
+
+.wrapper__img{
+    width: 421px;
+    height: 421px;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.link{
+    padding-right: 2rem;
+    text-decoration: underline;
+    color:#111827;
+}
+
+.link:hover{
+    color: #192b53;
+    font-weight: bold;
+}
+
+.jobname{
+    text-decoration: none;
+    color: #111827;
+}
+
+.jobname:hover{
+    color: #192b53;
+    font-weight: bold;
+}
+
+.scroll{
+    display: flex;
+    position: absolute;
+    align-items:center;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    justify-content:center;    
+    left: 3rem;
+    bottom: 0;
+    transform: rotate(180deg);
+    z-index: -1;
+}
+
+.scroll__per{
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    width: 2px;
+    height: 2rem;
+    background: #9CA3AF;
+}
+

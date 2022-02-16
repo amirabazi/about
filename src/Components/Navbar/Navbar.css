@@ -1,0 +1,52 @@
+.navbar{
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1rem 4rem;
+    position: sticky;
+    top:0;
+}
+
+.active{
+    background-color:#2d2d2dea ;
+    color:#FFF !important;
+    backdrop-filter: saturate(180%) blur(3px);
+}
+
+.navbar__right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabs{
+    padding: 0;
+    padding-left: 2rem;
+}
+
+.tabs__num{   
+    position: absolute;
+    margin-top: -1rem;
+    font-size: 0.7rem;
+}
+
+.tabs__main{
+    margin: 0;
+    text-decoration: none;
+    color:black;    
+}
+
+.col{
+    color:#FFF;
+    text-decoration: none;
+}
+
+.col:hover{
+    opacity: 0.8;
+}
+
+.tabs__main:hover{
+    color: #192b53;
+    font-weight: bold;
+}

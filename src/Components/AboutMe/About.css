@@ -1,0 +1,44 @@
+.about{
+    background-color: #090909;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;       
+}
+
+.about__main{
+    display: flex;
+    justify-content: space-around;    
+    width: 100vw;
+    color:#FFF; 
+}
+
+.about__wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.main__title{
+    color:#FFF; 
+}
+
+
+.main__about{
+    color:#FFF; 
+    display: flex;
+    align-items: center;
+}
+
+.gmail{
+    padding-right: 0.5rem;
+}
+
+
+.about__imgwrap{
+    width: 221px;
+    height: 221px;
+    box-shadow: -10px 10px #2D2D2D;
+}
+

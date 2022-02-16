@@ -1,0 +1,25 @@
+.contact__main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.contact__mail{
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;
+}
+
+.mail{
+    margin: 0;
+}
+
+.distrub{
+    margin: 0;;
+    color:#9CA3AF;
+}
+
+.red{
+    color:#FF2358;
+}
